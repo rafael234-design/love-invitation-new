@@ -18,8 +18,14 @@ export default function DatePlanner({
   return (
     <div className="bg-white p-10 rounded-3xl shadow-xl w-[500px]">
       <h1 className="text-3xl font-bold text-pink-600 mb-6">
-        📅 Atur Kencan Kita
+        📅 Aturr jadwal kita sayang
       </h1>
+      <p className="text-gray-600">
+        Mana habisini aku ditinggalin ke malang,hmm sedih😭
+      </p>
+      <div className="absolute top-4 right-4 text-3xl animate-pulse">
+                             💖
+      </div>
 
       <label>Tanggal</label>
 
@@ -39,10 +45,10 @@ export default function DatePlanner({
         value={place}
         onChange={(e) => setPlace(e.target.value)}
       >
-        <option>Pantai 🏖️</option>
-        <option>Kafe ☕</option>
-        <option>Gunung 🏔️</option>
-        <option>Nonton 🎬</option>
+        <option>mantaiii 🏖️</option>
+        <option>ngopii ☕</option>
+        <option>muncakkk🏔️</option>
+        <option>jalan-jalan 🚶️</option>
         <option>Kuliner 🍜</option>
       </select>
 

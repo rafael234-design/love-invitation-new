@@ -13,9 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Untuk Kamu ❤️",
-  description: "Ada sesuatu yang ingin aku sampaikan...",
+  title: "💌 Surat Untuk Kamu",
+  description: "Aku punya sesuatu untuk kamu buka ❤️",
 
+  openGraph: {
+    title: "💌 Surat Untuk Kamu",
+    description: "Aku punya sesuatu untuk kamu buka ❤️",
+    images: [
+      {
+        url:"/preview.jpg",
+        width: 1200,
+        height: 630,
+       
+       },
+     ],
+  },
 };
 
 export default function RootLayout({
@@ -30,5 +42,5 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
-  );
+  )
 }

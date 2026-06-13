@@ -8,8 +8,12 @@ export default function Envelope({
       <h1 className="text-5xl mb-5">💌</h1>
 
       <h1 className="text-3xl font-bold text-pink-600">
-        Jadwal Buat Kita ❤️
+        💖 Jadwal Buat Kita ❤️
       </h1>
+
+      <div className="absolute top-4 right-4 text-3xl animate-pulse">
+                             💖
+      </div>
 
       <p className="mt-4 text-gray-600">
         ini untuk jadwal kita kalau mau keluar keluar, 

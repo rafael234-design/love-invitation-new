@@ -24,9 +24,15 @@ Aku tidak sabar bertemu kamu ❤️`;
         💌 Surat Dari Rafael
       </h1>
 
+    <div className="absolute top-4 right-4 text-3xl animate-pulse">
+                             💖
+    </div>
+
       <pre className="whitespace-pre-wrap text-lg">
         {text}
       </pre>
+
+  
 
       <button
         onClick={share}

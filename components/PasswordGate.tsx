@@ -23,6 +23,9 @@ export default function PasswordGate({
       <h1 className="text-3xl font-bold">
   Enter Password
 </h1>
+<div className="absolute top-4 right-4 text-3xl animate-pulse">
+                             💖
+      </div>
 
 <p className="text-pink-700 mt-2 text-center">
   🌸 Masukin tanggal jadian kita sayang ❤️
