@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Aku punya sesuatu untuk kamu buka ❤️",
     images: [
       {
-        url:"/preview.jpg",
+        url:"https://love-invitation-new.vercel.app/preview.jpg",
         width: 1200,
         height: 630,
        
